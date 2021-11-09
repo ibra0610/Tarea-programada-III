@@ -1,5 +1,5 @@
 #include "escritorBinario.h"
-#include "noSeAbreArchivoException.h"
+#include "./excepciones/noSeAbreArchivoException.h"
 #include <iostream> 
 
 using namespace std; 

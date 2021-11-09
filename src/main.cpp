@@ -3,7 +3,7 @@
 
 #include "creadorPersona.h"
 #include "escritorBinario.h" 
-#include "personaNoExisteException.h"
+#include "./excepciones/personaNoExisteException.h"
 
 using namespace std; 
 
