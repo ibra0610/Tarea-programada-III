@@ -1,3 +1,4 @@
+#ifndef UNIT_TEST
 #include <iostream> 
 #include <fstream> 
 
@@ -16,7 +17,7 @@ int main(){
 
                 LectorBinario lector {"personas.dat"}; 
         
-                Persona persona = lector.getPersona(-1);
+                Persona persona = lector.getPersona(0);
                 cout << persona.getNombreCompleto();
         
                 lector.cerrar(); 
@@ -43,3 +44,5 @@ int main(){
      
      return 0; 
 }
+
+#endif

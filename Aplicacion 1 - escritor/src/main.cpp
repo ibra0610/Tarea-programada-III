@@ -1,3 +1,4 @@
+#ifndef UNIT_TEST
 #include <iostream> 
 #include <fstream> 
 
@@ -29,4 +30,6 @@ int main(){
  
     return 0;
     
-}
+} 
+
+#endif

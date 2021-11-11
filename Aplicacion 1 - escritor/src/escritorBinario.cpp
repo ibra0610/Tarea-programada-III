@@ -10,7 +10,7 @@ EscritorBinario::EscritorBinario(string nombreArchivo){
 
         if(!archivoSalida.is_open()){
 
-            throw new NoSeAbreArchivoException();
+            throw NoSeAbreArchivoException();
 
         }
 

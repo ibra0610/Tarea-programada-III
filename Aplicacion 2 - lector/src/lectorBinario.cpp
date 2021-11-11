@@ -10,7 +10,7 @@ LectorBinario::LectorBinario(string nombreArchivo){
     archivoEntrada.open(nombreArchivo, ios::in|ios::binary); 
 
     if(!archivoEntrada.is_open()){
-        throw new NoSeAbreArchivoException();
+        throw NoSeAbreArchivoException();
     } 
 
 } 
